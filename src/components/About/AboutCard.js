@@ -8,31 +8,36 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Olá, eu sou <span className="purple">Murilo Matos </span>
-            de <span className="purple">São Paulo, SP, Brasil.</span>
+            Olá, meu nome é <span className="purple">Murilo Matos</span> e sou de <span className="purple">São Paulo, SP, Brasil</span>.
             <br />
             <br />
-            Sou formado em Análise e Desenvolvimento de Sistemas pela FIAP. Apaixonado por tecnologia desde a infância, estou sempre atualizado sobre as últimas tendências e inovações. Minha habilidade autodidata me permite aprender rapidamente e me adaptar a novas ferramentas e metodologias com facilidade.
+            Sou desenvolvedor de software júnior, formado em Análise e Desenvolvimento de Sistemas pela FIAP. Desde a infância, sempre fui fascinado por tecnologia e inovação.
             <br />
             <br />
-            Possuo conhecimento sólido em desenvolvimento de software e busco contribuir ativamente para projetos que façam a diferença, levando minha dedicação e impacto positivo a cada trabalho. Nas horas vagas, gosto de:
+            Tenho experiência com <b className="purple">Java, Spring Boot, React.js</b> e tecnologias <b className="purple">cloud</b> como AWS, Azure e Google Cloud. Estou sempre buscando aprendizado e evolução para me tornar um profissional melhor e contribuir ativamente para projetos de impacto.
+            <br />
+            <br />
+            Já participei de projetos acadêmicos e colaborativos, como o <b className="purple">ProspAI</b> e <b className="purple">ProspOcean</b>, onde trabalhei no desenvolvimento de APIs REST, automação de processos e integrações com inteligência artificial.
+            <br />
+            <br />
+            Além da tecnologia, gosto de:
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Ver Filmes
+              <ImPointRight /> Ver filmes e séries
             </li>
             <li className="about-activity">
-              <ImPointRight /> Jogar
+              <ImPointRight /> Jogar videogames
             </li>
             <li className="about-activity">
-              <ImPointRight /> Viajar
+              <ImPointRight /> Viajar e conhecer novas culturas
             </li>
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Sempre busco construir coisas que façam a diferença!"
+            "Estou sempre aberto a desafios e oportunidades para crescer como desenvolvedor."
           </p>
-          <footer className="blockquote-footer">Murilo</footer>
+          <footer className="blockquote-footer">Murilo Matos</footer>
         </blockquote>
       </Card.Body>
     </Card>

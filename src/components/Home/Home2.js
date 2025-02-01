@@ -19,26 +19,16 @@ function Home2() {
               PERMITA-ME <span className="purple"> APRESENTAR </span>
             </h1>
             <p className="home-about-body">
-            Olá! Sou desenvolvedor de software formado em Análise e Desenvolvimento de Sistemas pela FIAP, apaixonado por tecnologia desde a infância e sempre atento às últimas tendências do mercado. <br />
-              <br />
-              Meu foco atual está em{" "}
-              <i>
-                <b className="purple">
-                  desenvolvimento de software e tecnologias cloud
-                </b>
-              </i>
-              , procurando sempre trazer um impacto positivo através do que
-              construo. <br />
-              <br />
-              Também possuo experiência com{" "}
-              <i>
-                <b className="purple">Java</b>, Spring Boot, React.js e outras
-                stacks modernas.
-              </i>
+              Olá! Meu nome é <b className="purple">Murilo Matos</b>, sou desenvolvedor de software júnior formado em Análise e Desenvolvimento de Sistemas pela FIAP.
               <br />
               <br />
-              Estou em constante aprendizado, buscando oportunidades de crescer
-              como desenvolvedor e contribuir em projetos que façam diferença.
+              Tenho experiência com <b className="purple">Java, Spring Boot, React.js</b> e tecnologias <b className="purple">cloud</b>, e estou sempre em busca de aprendizado para aprimorar minhas habilidades e contribuir em projetos significativos.
+              <br />
+              <br />
+              Já participei de projetos acadêmicos e colaborativos, como o <b className="purple">ProspAI</b> e <b className="purple">ProspOcean</b>, onde trabalhei no desenvolvimento de APIs REST e integrações com inteligência artificial.
+              <br />
+              <br />
+              Estou sempre aberto a novos desafios e oportunidades. Vamos construir algo incrível juntos?
             </p>
           </Col>
 
@@ -68,8 +58,6 @@ function Home2() {
                   <AiFillGithub />
                 </a>
               </li>
-
-
               <li className="social-icons">
                 <a
                   href="https://www.linkedin.com/in/murilo-matos-681a49270"
@@ -80,7 +68,6 @@ function Home2() {
                   <FaLinkedinIn />
                 </a>
               </li>
-
               <li className="social-icons">
                 <a
                   href="https://www.instagram.com/murilo.matos__"
@@ -94,7 +81,6 @@ function Home2() {
             </ul>
           </Col>
         </Row>
-
       </Container>
     </Container>
   );
