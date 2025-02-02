@@ -44,9 +44,6 @@ function Home2() {
         <Row>
           <Col md={12} className="home-about-social">
             <h1>VOCÊ PODE ME ENCONTRAR EM</h1>
-            <p>
-              Fique à vontade para se <span className="purple">conectar </span>comigo
-            </p>
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
