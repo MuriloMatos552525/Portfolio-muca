@@ -10,6 +10,10 @@ import plusoftImg from "../../Assets/Projects/plusoft.jpg";
 import oceans20Img from "../../Assets/Projects/oceans20.jpg";
 import portoImg from "../../Assets/Projects/porto.png";
 import kraftHeinzImg from "../../Assets/Projects/kraftheinz.jpg";
+// Nova imagem para o Grupo FG Decorações
+import fgDecoracoesImg from "../../Assets/Projects/fgdecoracoes.jpg";
+// Nova imagem para o Quiz do Espaço AMO
+import quizImg from "../../Assets/Projects/quiz.png";
 
 // Array com os dados dos projetos
 const projects = [
@@ -110,6 +114,41 @@ Projeto global que utiliza IA para combater a fome e a escassez de alimentos. A 
 **Principais Tecnologias:**  
 Java, DDD, Boas práticas de Arquitetura, IA aplicada à gestão de alimentos.`,
     ghLink: "https://github.com/Exemplo/KraftHeinz" // Atualize com o link correto, se disponível
+  },
+  {
+    imgPath: fgDecoracoesImg,
+    isBlog: false,
+    title: "Grupo FG Decorações – Elegância em Pedras Naturais",
+    description: `**Descrição do Projeto:**  
+Desenvolvido para o Grupo FG Decorações, este site é especializado na comercialização de pedras para acabamentos, como quartizito e granito. Embora apresente um design simples, conforme solicitado pelo cliente, a plataforma incorpora funcionalidades modernas que enriquecem a experiência do usuário e otimizam o processo de vendas.
+
+**Meu Papel:**  
+- Desenvolvimento da plataforma utilizando Next.js com TypeScript e Sass, alinhando-se às tendências mais atuais do desenvolvimento frontend.  
+- Criação de uma página de produtos com especificações detalhadas para cada tipo de pedra, oferecendo informações precisas e relevantes.  
+- Implementação de scripts inteligentes que direcionam os visitantes para o WhatsApp, facilitando o contato imediato e a conversão de pedidos.  
+- Integração de um formulário interativo, projetado para captar as necessidades dos clientes e agilizar o atendimento pela equipe de vendas.
+
+**Principais Tecnologias:**  
+Next.js, TypeScript, Sass.`,
+    ghLink: "https://github.com/MuriloMatos552525/Personal_FG_Decoracoes_NextJS",
+    demoLink: "https://grupofgdecoracoes.com/"
+  },
+  {
+    imgPath: quizImg,
+    isBlog: false,
+    title: "Quiz Espaço AMO – Conectando Potenciais Alunos",
+    description: `**Descrição do Projeto:**  
+Desenvolvido para o evento Espaço AMO na Arena Verão Mix, este quiz interativo foi criado com React e TypeScript para a coleta de dados de potenciais alunos. Com um design simples e marcante, inspirado na identidade visual icônica da Anembi Morumbi Agora AMO, o quiz oferece uma experiência intuitiva para os participantes.
+
+**Meu Papel:**  
+- Desenvolvimento do quiz utilizando React e TypeScript, garantindo performance e responsividade.  
+- Implementação de funcionalidades para captação e armazenamento dos dados dos participantes.  
+- Configuração do período de exibição (11 de janeiro a 23 de fevereiro) e criação de um sistema de filtragem dos dados, facilitando o repasse das informações para o cliente, que realizará a coleta e notificações para potenciais alunos.
+
+**Principais Tecnologias:**  
+React, TypeScript.`,
+    ghLink: "https://github.com/MuriloMatos552525/quiz_react",
+    demoLink: "https://amoanhembi.vercel.app/"
   }
 ];
 
